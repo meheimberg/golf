@@ -84,8 +84,6 @@
 // 						$("#header-nav").html('<object data="./menu.php">');
 // 						$("#header-nav").load('menu.php');
 
-						
-						
 		
 		            },
 // 		            dataType: "json",
