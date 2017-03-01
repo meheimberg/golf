@@ -1,0 +1,385 @@
+@font-face {
+    font-family: 'Gentleman300';
+    src: url('fonts/Gentleman-300-ExtraLight.eot'); /* IE9 Compat Modes */
+    src: url('fonts/Gentleman-300-ExtraLight.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('fonts/Gentleman-300-ExtraLight.woff') format('woff'), /* Modern Browsers */
+    url('fonts/Gentleman-300-ExtraLight.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('fonts/Gentleman-300-ExtraLight.svg#Gentleman300-ExtraLight') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: 'Gentleman500';
+    src: url('fonts/Gentleman-500-Book.eot'); /* IE9 Compat Modes */
+    src: url('fonts/Gentleman-500-Book.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('fonts/Gentleman-500-Book.woff') format('woff'), /* Modern Browsers */
+    url('fonts/Gentleman-500-Book.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('fonts/Gentleman-500-Book.svg#Gentleman500-Book') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+
+body {
+
+    font-family: "Gentleman500" !important;
+
+}
+
+h1 {
+    font-size: 40px !important;
+}
+
+h2 {
+
+    font-size: 27px !important;
+
+}
+
+.hole-number, .strokes {
+    float: left;
+    width: 50px;
+    text-align: right;
+    font-size: 1.2em;
+    padding: 6px;
+    min-height: 18px;
+    
+}
+
+.hole-number {
+
+    font-weight: bold;
+    border-top: 1px solid #777;
+    border-left: 1px solid #777;
+    border-bottom: 1px solid #777;
+    background-color: #568400;
+}
+
+.hole-info, .best-score {
+    background-color: #77b700;
+}
+
+.avg-score {
+    background-color: #ff7f00;
+}
+
+.worst-score {
+    background-color: #df0032;
+}
+
+.best-score, .worst-score, .hole-info, .hole-number {
+    color: #fff;
+    font-weight: bold;
+}
+
+.player{
+    float: left;
+    text-align: left;
+    font-size: 1.5em;
+	line-height: 1.8em;
+    padding: 3px;
+    min-height: 18px;
+}
+
+.strokes {
+
+    border-bottom: 1px solid #777;
+    border-left: 1px solid #777;
+
+}
+
+.grey {
+	background-color: #ededed;
+}
+
+.end-of-row {
+    border-right: 1px solid #777;
+    width: 55px;
+}
+
+.right-border {
+    border-right: 1px solid #777;
+}
+
+.clear {
+    clear: both;
+}
+
+.row-lead {
+    width: 100px;
+}
+
+.red {
+    color: #df0032;
+}
+
+.par {
+    background-color: #ffa500;
+}
+
+
+.birdie {
+    background-color: #adff2f;
+}
+
+.maxwidth {
+    width: 100px;
+    max-width: 300px !important;
+}
+
+.float {
+    float: left !important;
+}
+
+.hole-input-label, .hole-label, .hole-label-wide, .date-label {
+    font-weight: bold;
+    color: #777;
+    font-size: 20px;
+    margin-top: 4px;
+    margin-right: 10px;
+    height: 30px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.hole-label {
+    width: 30px;
+    max-width: 30px;
+}
+
+.hole-label-wide {
+    width: 50px;
+    max-width: 50px;
+}
+
+.hole-input-label, .date-label {
+    width: 70px;
+    text-align: right;
+}
+
+.date-label {
+    margin-top: 0px;
+}
+
+.hole-input, .yards-input, .par-input {
+
+    float: left;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 9px;
+    border: 1px solid #777;
+    padding: 0px 5px;
+    text-align: center;
+    font-size: 20px;
+    color: #777;
+
+}
+
+.hole-input, .par-input {
+    width: 30px;
+    max-width: 30px;
+}
+
+.hole-input-edit {
+
+    margin: 0px;
+    padding: 0px;
+
+
+    /*float: left;*/
+    /*height: 30px;*/
+    /*width: 30px;*/
+    border: 0px;
+    /*margin-right: 10px;*/
+    /*border-radius: 9px;*/
+    /*border: 1px solid #777;*/
+    /*padding: 0px 5px;*/
+    text-align: right;
+
+/*
+    color: #df0032;
+    background-color: #e9d3d8;
+*/
+    max-width: 30px;
+    overflow: hidden;
+}
+
+.par-input {
+
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.yards-input {
+
+    width: 50px;
+    max-width: 50px;
+
+}
+
+#result {
+    display: none;
+    border: 1px solid #77b700;
+    background-color: #b8db77;
+    height: 40px;
+    width: 300px;
+    border-radius: 9px;
+    margin: 0px auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.checkbox {
+    float: left;
+    margin-top: 5px;
+}
+
+#header-nav {
+
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    top: 0px;
+    background-color: #337ab7;
+
+
+}
+
+#header-nav ul {
+    margin: 0px auto;
+    height: 40px;
+    /*background-color: #df0032;*/
+    width: 80%;
+    margin-top: 8px;
+}
+
+#header-nav li {
+    float: left;
+    list-style-type: none;
+    padding-left: 30px;
+}
+
+.nav-link {
+    color: #fff;
+    font-size: 1.3em;
+}
+
+#container {
+    margin-top: 50px;
+
+}
+
+.showscores {
+    text-align: center;
+    padding-top: 10px;
+}
+
+#players-container, #courses-container, #date-container, #coursename-container {
+    padding: 9px;
+}
+
+#players-group-error, #courses-group-error, #date-group-error, #coursename-group-error {
+    display: none;
+}
+
+.error {
+    border: 1px solid #df0032 !important;
+    background-color: #ffbfcd !important;
+    border-radius: 9px !important;
+}
+
+.no-data{
+    border: 1px solid #df0032 !important;
+    background-color: #ffbfcd !important;
+    border-radius: 9px !important;
+    min-height: 90px;
+    margin: 20px;
+    padding: 20px;
+    max-width: 560px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.addscores, .addcourse {
+    margin-top: 9px;
+    text-align: center;
+}
+
+#datepicker {
+    border-radius: 9px;
+    border: 1px solid #777;
+    height: 30px;
+    min-height: 30px;
+    width: 100px;
+    max-width: 100px;
+    padding: 0px 9px;
+}
+
+.rounds-number {
+    font-size: .9em;
+}
+
+.disabled {
+    color: #aaa;
+}
+
+
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #777;
+    filter:alpha(opacity=50);
+    -moz-opacity:0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.5;
+    z-index: 10000;
+}
+
+#login {
+	position: absolute;
+    width: 300px;
+    height: auto;
+    top: -300px;
+    background-color: #fff;
+    border-radius: 18px;
+    border: 1px solid #777;
+    z-index: 10001;
+    padding: 18px;
+
+}
+
+#invalid-login {
+	color: #df0032;
+	font-weight: bold;
+	display: none;
+}
+
+.center {
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
