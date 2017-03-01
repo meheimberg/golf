@@ -16,9 +16,7 @@
 ?>
 
 
-	<div id="overlay">
-		
-	</div>
+	<div id="overlay"></div>
 	
 	<div id="login">
 		<h2>Login</h2>
