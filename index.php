@@ -15,7 +15,6 @@
 
 ?>
 
-
 	<div id="overlay"></div>
 	
 	<div id="login">
