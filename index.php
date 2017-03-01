@@ -7,11 +7,6 @@
     include('courses-query.php');
     
 	if(empty($_SESSION['username'])):
-	
-    
-
-
-    
 
 ?>
 
